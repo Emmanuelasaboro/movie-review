@@ -12,7 +12,7 @@ function fetchData() {
             const html = data.results.map(movie => {
                 return `
                 
-                <div class="col-md-4"> 
+                <div class="col-md-4 my-2"> 
                     <div class="card my-2 p-2" style="height: 100%;">
                         <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="poster image"class="card__img card-img-top embed-responsive-item" />
                         <div class="card__caption mt-4"> 
